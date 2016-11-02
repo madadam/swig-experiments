@@ -1,0 +1,2504 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"catch_u",
+				"catch_unwind         Function (helper.rs) : pub fn catch_unwind<T: CallbackArgs, F: FnOnce() -> Result<T, FfiError>>(f: F) -> T                                                    "
+			],
+			[
+				"catcH_",
+				"catch_unwind         Function (helper.rs) : pub fn catch_unwind<T: CallbackArgs, F: FnOnce() -> Result<T, FfiError>>(f: F) -> T                                                    "
+			],
+			[
+				"catch_",
+				"catch_unwind         Function (helper.rs) : pub fn catch_unwind<T: CallbackArgs, F: FnOnce() -> Result<T, FfiError>>(f: F) -> T                                                    "
+			],
+			[
+				"catch_un",
+				"catch_unwind_ptr Function (helper.rs) : pub fn catch_unwind_ptr<T, F: FnOnce() -> Result<*const T, FfiError>>(f: F) -> *const T                                                "
+			],
+			[
+				"from",
+				"from_millis Function (duration.rs) : pub fn from_millis(millis: u64) -> Duration"
+			],
+			[
+				"D",
+				"Duration         Struct (duration.rs) : pub struct Duration                    "
+			],
+			[
+				"Call",
+				"CallbackArgs"
+			],
+			[
+				"Fil",
+				"FilterType Enum (appendable_data.rs) : pub enum FilterType {                       "
+			],
+			[
+				"Fi",
+				"FilterType Enum (appendable_data.rs) : pub enum FilterType {                       "
+			],
+			[
+				"Ffi",
+				"FfiDefault"
+			],
+			[
+				"Ob",
+				"ObjectCache"
+			],
+			[
+				"from_",
+				"from_secs   Function (duration.rs) : pub fn from_secs(secs: u64) -> Duration    "
+			],
+			[
+				"Re",
+				"RequestTimeout              EnumVariant (errors.rs) : RequestTimeout,                                  "
+			],
+			[
+				"Op",
+				"OpaqueCtx  Struct (mod.rs) : pub struct OpaqueCtx(*mut ::libc::c_void)\\          "
+			],
+			[
+				"app",
+				"app_1_h                 Let (immut_data.rs) : let app_1_h = obj_cache.insert_app(app_1)\\                                     "
+			],
+			[
+				"ap",
+				"app_0_h                 Let (immut_data.rs) : let app_0_h = obj_cache.insert_app(app_0)\\                                     "
+			],
+			[
+				"obj_",
+				"obj_cache"
+			],
+			[
+				"inser",
+				"insert_encrypt_key"
+			],
+			[
+				"SelfEnc",
+				"SelfEncryptorReaderWrapper Struct (immut_data.rs) : pub struct SelfEncryptorReaderWrapper                "
+			],
+			[
+				"object",
+				"object_cache"
+			],
+			[
+				"Cip",
+				"CipherOpt         Enum (cipher_opt.rs) : pub enum CipherOpt {                    "
+			],
+			[
+				"handle",
+				"handle_gen"
+			],
+			[
+				"obj",
+				"obj_cache"
+			],
+			[
+				"ob",
+				"obj_cache"
+			],
+			[
+				"ObjectH",
+				"ObjectHandle  Type (object_cache.rs) : pub type ObjectHandle = u64\\                        "
+			],
+			[
+				"DEF",
+				"DEFAULT_CAPACITY Const (object_cache.rs) : const DEFAULT_CAPACITY: usize = 100\\   "
+			],
+			[
+				"Obje",
+				"ObjectHandle  Type (object_cache.rs) : pub type ObjectHandle = u64\\                        "
+			],
+			[
+				"Ne",
+				"NetworkTx      Type (mod.rs) : pub type NetworkTx = channel::Sender<NetworkEvent>\\"
+			],
+			[
+				"CoreM",
+				"CoreMsgTx            Type (core_el.rs) : pub type CoreMsgTx = channel::Sender<CoreMsg>\\                                         "
+			],
+			[
+				"ran",
+				"random_client_with_net_obs"
+			],
+			[
+				"te",
+				"test_utils"
+			],
+			[
+				"genera",
+				"generate_random_vector Function (mod.rs) : pub fn generate_random_vector<T>(length: usize) -> Result<Vec<T>, CoreError> where T: ::rand::Rand"
+			],
+			[
+				"struct_data_ext",
+				"struct_data_extract_data_id"
+			],
+			[
+				"objec",
+				"object_cache"
+			],
+			[
+				"encr",
+				"encrypted_data"
+			],
+			[
+				"ext",
+				"extract_current_value     Function (versioned.rs) : pub fn extract_current_value(client: &Client, data: &StructuredData, decryption_key: Option<secretbox::Key>) -> Box<CoreFuture<Vec<u8>>>      "
+			],
+			[
+				"CipherO",
+				"CipherOptHandle"
+			],
+			[
+				"Stru",
+				"StructDataHandle           Type (object_cache.rs) : pub type StructDataHandle = ObjectHandle\\            "
+			],
+			[
+				"Rec",
+				"ReceivedUnexpectedData      EnumVariant (errors.rs) : ReceivedUnexpectedData,                          "
+			],
+			[
+				"get_dat",
+				"get_data_id"
+			],
+			[
+				"ciph",
+				"cipher_opt_h"
+			],
+			[
+				"enc",
+				"encrypted_data"
+			],
+			[
+				"Str",
+				"StructDataHandle"
+			],
+			[
+				"CI",
+				"CipherOptHandle"
+			],
+			[
+				"dns_get_",
+				"dns_get_service_dir"
+			],
+			[
+				"null",
+				"null_mut Function (ptr.rs) : pub const fn null_mut<T>() -> *mut T"
+			],
+			[
+				"create",
+				"create_sub_dir    Function (dir_helper.rs) : pub fn create_sub_dir(client: Client, name: String, encrypt_key: Option<secretbox::Key>, user_metadata: Vec<u8>, parent: &Dir, parent_id: &DirId) -> Box<NfsFuture<(Dir, Dir, DirMetadata)>>"
+			],
+			[
+				"ser",
+				"service_name    FnArg (operations.rs) : service_name                                                                                            "
+			],
+			[
+				"Core",
+				"CoreMsg               Struct (core_el.rs) : pub struct CoreMsg(Option<Box<FnMut(&Client) -> Option<TailFuture> + Send + 'static>>)\\"
+			],
+			[
+				"App",
+				"AppHandle"
+			],
+			[
+				"create_",
+				"create_session"
+			],
+			[
+				"voi",
+				"void_c"
+			],
+			[
+				"File",
+				"FileDetails  Struct (file_details.rs) : pub struct FileDetails "
+			],
+			[
+				"file",
+				"file_name_raw         Let (file.rs) : let file_name_raw = helpers::string_to_c_utf8(file_name)\\                          "
+			],
+			[
+				"Netwo",
+				"NetworkEvent"
+			],
+			[
+				"pri",
+				"private_signing_key FnArg (unversioned.rs) : private_signing_key"
+			],
+			[
+				"Inva",
+				"InvalidSuccessor EnumVariant (client_errors.rs) : InvalidSuccessor,"
+			],
+			[
+				"Inv",
+				"InvalidOperation EnumVariant (client_errors.rs) : InvalidOperation,"
+			],
+			[
+				"Mut",
+				"MutationError Enum (client_errors.rs) : pub enum MutationError {      "
+			],
+			[
+				"UN",
+				"UNVERSIONED_STRUCT_DATA_TYPE_TAG"
+			],
+			[
+				"gen",
+				"generate_random_vector Function (mod.rs) : pub fn generate_random_vector<T>(length: usize) -> Result<Vec<T>, CoreError> where T: ::rand::Rand"
+			],
+			[
+				"Has",
+				"HashSet Struct (set.rs) : pub struct HashSet<T, S = RandomState>   "
+			],
+			[
+				"get_",
+				"get_type_tag                  Function (structured_data.rs) : pub fn get_type_tag(&self) -> u64                             "
+			],
+			[
+				"regi",
+				"register"
+			],
+			[
+				"en",
+				"encoded_dns_record Let (operations.rs) : let encoded_dns_record = try!(serialise(&dns_record))   "
+			],
+			[
+				"seri",
+				"serialise Function (serialisation.rs) : pub fn serialise<T>(data: &T) -> Result<Vec<u8>, SerialisationError> where T: Encodable                 "
+			],
+			[
+				"Dat",
+				"DataIdentifier Enum (data.rs) : pub enum DataIdentifier {"
+			],
+			[
+				"Struc",
+				"Structured"
+			],
+			[
+				"get_all",
+				"get_all_services                           Function (operations.rs) : pub fn get_all_services(client: &Client, long_name: &str, decryption_key: Option<secretbox::Key>) -> Box<DnsFuture<Vec<String>>>                                "
+			],
+			[
+				"gene",
+				"generate_random_string"
+			],
+			[
+				"get",
+				"get_all_registered_names                   Function (operations.rs) : pub fn get_all_registered_names(_client: &Client) -> Box<DnsFuture<Vec<String>>>                                                                                "
+			],
+			[
+				"acc_",
+				"acc_locator"
+			],
+			[
+				"sec",
+				"secret_signing_key Let (operations.rs) : let secret_signing_key = unwrap!(client.secret_signing_key())                                           "
+			],
+			[
+				"con",
+				"config Module (config.rs) : /home/adam/projects/maidsafe/safe_core/src/dns/config.rs"
+			],
+			[
+				"St",
+				"StructuredData                Struct (structured_data.rs) : pub struct StructuredData                            "
+			],
+			[
+				"pu",
+				"public_messaging_encryption_key FnArg (operations.rs) : public_messaging_encryption_key"
+			],
+			[
+				"saved",
+				"saved_configs"
+			],
+			[
+				"Mutation",
+				"MutationError"
+			],
+			[
+				"Mu",
+				"MutationFailure"
+			],
+			[
+				"DNS_CON",
+				"DNS_CONFIG_FILE_NAME Const (config.rs) : const DNS_CONFIG_FILE_NAME: &'static str = \"DnsConfigurationFile\"\\ "
+			],
+			[
+				"dir",
+				"dir_helper"
+			],
+			[
+				"data_",
+				"data_account_version       Let (mod.rs) : let mut data_account_version = Data::Structured(account_version)\\                                                                            "
+			],
+			[
+				"loca",
+				"location_client_mgr_struct      Let (mod.rs) : let location_client_mgr_struct = Authority::ClientManager(*data_account_version.name())\\"
+			],
+			[
+				"No",
+				"NoSuchData"
+			],
+			[
+				"data",
+				"data_account_version       Let (mod.rs) : let mut data_account_version = Data::Structured(account_version)\\                     "
+			],
+			[
+				"type",
+				"type_tag"
+			],
+			[
+				"encoded",
+				"encoded_version_list"
+			],
+			[
+				"extra",
+				"extract_all_version_names Function (versioned.rs) : pub fn extract_all_version_names(client: &Client, data: &StructuredData) -> Box<CoreFuture<Vec<XorName>>>                                     "
+			],
+			[
+				"current_ve",
+				"current_version_data"
+			],
+			[
+				"version_list",
+				"version_list_data"
+			],
+			[
+				"Imm",
+				"Immutable"
+			],
+			[
+				"Im",
+				"Immutable"
+			],
+			[
+				"ver",
+				"version_names"
+			],
+			[
+				"extr",
+				"extract_value         Function (versioned.rs) : pub fn extract_value(client: &Client, data: &StructuredData, version: u64, decryption_key: Option<secretbox::Key>) -> Box<CoreFuture<Vec<u8>>>"
+			],
+			[
+				"extract_",
+				"extract_current_value Function (versioned.rs) : pub fn extract_current_value(client: &Client, data: &StructuredData, decryption_key: Option<secretbox::Key>) -> Box<CoreFuture<Vec<u8>>>      "
+			],
+			[
+				"current_version",
+				"current_version_name"
+			],
+			[
+				"Strucuda",
+				"StructuredData"
+			],
+			[
+				"Strucutre",
+				"StructuredData"
+			],
+			[
+				"ge",
+				"generate_random_vector Function (mod.rs) : pub fn generate_random_vector<T>(length: usize) -> Result<Vec<T>, CoreError> where T: ::rand::Rand"
+			],
+			[
+				"into_",
+				"into_future"
+			],
+			[
+				"MAX",
+				"MAX_STRUCTURED_DATA_SIZE_IN_BYTES"
+			],
+			[
+				"Publi",
+				"PublicKey"
+			],
+			[
+				"gen_",
+				"gen_keypair Function (curve25519xsalsa20poly1305.rs) : pub fn gen_keypair() -> (PublicKey, SecretKey)"
+			],
+			[
+				"se",
+				"self_encryptor                      Let (immutable_data.rs) : let self_encryptor = fry!(SelfEncryptor::new(storage, data_map))                       "
+			],
+			[
+				"bo",
+				"borrow_state Function (cell.rs) : pub fn borrow_state(&self) -> BorrowState"
+			],
+			[
+				"O",
+				"OperationAborted            EnumVariant (errors.rs) : OperationAborted,           "
+			],
+			[
+				"Immu",
+				"ImmutableData"
+			],
+			[
+				"Ref",
+				"RefCell Struct (cell.rs) : pub struct RefCell<T: ?Sized>        "
+			],
+			[
+				"ter",
+				"terminator Let (test_utils.rs) : let terminator = Terminator(self.tx)\\                                            "
+			],
+			[
+				"core_tx",
+				"core_tx2"
+			],
+			[
+				"secre",
+				"secretbox              Module (mod.rs) : /home/adam/.cargo/registry/src/github.com-1ecc6299db9ec823/rust_sodium-0.1.2/src/crypto/secretbox/mod.rs"
+			],
+			[
+				"use",
+				"user_cred"
+			],
+			[
+				"clien",
+				"client_type"
+			],
+			[
+				"into",
+				"into_box"
+			],
+			[
+				"Oper",
+				"OperationForbiddenForClient EnumVariant (errors.rs) : OperationForbiddenForClient,"
+			],
+			[
+				"Future",
+				"FutureExt"
+			],
+			[
+				"ex",
+				"external_error_indicator MatchArm (mod.rs) : Ok(Event::Response { response: Response::GetFailure { id, data_id, ref external_error_indicator }, .. })"
+			],
+			[
+				"parse",
+				"parse_get_err      Function (routing_el.rs) : pub fn parse_get_err(reason_raw: &[u8]) -> GetError          "
+			],
+			[
+				"block",
+				"blocking_get          Function (mod.rs) : fn blocking_get(routing: &mut Routing, routing_rx: &Receiver<Event>, dst: Authority, data_id: DataIdentifier) -> Result<Data, CoreError>"
+			],
+			[
+				"Rece",
+				"ReceivedUnexpectedEvent     EnumVariant (errors.rs) : ReceivedUnexpectedEvent,                         "
+			],
+			[
+				"Ret",
+				"ReturnType"
+			],
+			[
+				"SelfE",
+				"SelfEncryptionStorageError Struct (self_encryption_storage.rs) : pub struct SelfEncryptionStorageError(pub Box<CoreError>)\\"
+			],
+			[
+				"Self",
+				"SelfEncryptionStorageError Struct (self_encryption_storage.rs) : pub struct SelfEncryptionStorageError(pub Box<CoreError>)\\"
+			],
+			[
+				"respo",
+				"response_manager"
+			],
+			[
+				"Ter",
+				"Terminating EnumVariant (context.rs) : Terminating,"
+			],
+			[
+				"re",
+				"recv_timeout   Function (mod.rs) : pub fn recv_timeout(&self, timeout: Duration) -> Result<T, RecvTimeoutError>"
+			],
+			[
+				"Termi",
+				"Terminated"
+			],
+			[
+				"Termin",
+				"Terminating"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Rust Enhanced/Cargo.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"platform=android"
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Build (release)"
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Run (release)"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Bench"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Release"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Clippy"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Test (use-mock-routing, no-run)"
+				]
+			],
+			[
+				"Packages/Rust Enhanced/Cargo.sublime-build",
+				"Test (use-mock-routing, no-run)"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Bench"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Release"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Clippy"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Test --no-run"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Test (nightly, use-mock-routing)"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Test (nightly, use-mock-routing, no-run)"
+				]
+			],
+			[
+				"Packages/Rust Enhanced/Cargo.sublime-build",
+				"Test (nightly, use-mock-routing)"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Bench"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Release"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Clippy"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Test --no-run"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Test (use-mock-routing)"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Test (use-mock-routing, no-run)"
+				]
+			],
+			[
+				"Packages/Rust Enhanced/Cargo.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Bench"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Release"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Clippy"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Test --no-run"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Test (use-mock-routing, no-run)"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Test (nightly, use-mock-routing, no-run)"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Test (nightly, use-mock-routing)"
+				]
+			],
+			[
+				"Packages/Rust Enhanced/Cargo.sublime-build",
+				"Test --no-run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Test (no-run)"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Bench"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Release"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Clippy"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Test (use-mock-routing, no-run)"
+				]
+			],
+			[
+				"Packages/Rust Enhanced/Cargo.sublime-build",
+				"Test (no-run)"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Test (no-run)"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Bench"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Release"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Clippy"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Test (use-mock-routing, no-run)"
+				],
+				[
+					"Packages/Rust Enhanced/Cargo.sublime-build",
+					"Test (use-mock-routing)"
+				]
+			],
+			[
+				"Packages/Rust Enhanced/Cargo.sublime-build",
+				"Test (use-mock-routing, no-run)"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Bench"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Rust/Cargo.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Bench"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Release"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Clippy"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Test --no-run"
+				]
+			],
+			[
+				"Packages/Rust/Cargo.sublime-build",
+				"Test --no-run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Bench"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Release"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Clippy"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Test --no-run"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Test (use-mock-routing)"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Test (use-mock-routing, no-run)"
+				]
+			],
+			[
+				"Packages/Rust/Cargo.sublime-build",
+				"Test (use-mock-routing, no-run)"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Bench"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Release"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Clippy"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Test --no-run"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Test (use-mock-routing, no-run)"
+				]
+			],
+			[
+				"Packages/Rust/Cargo.sublime-build",
+				"Test (use-mock-routing, no-run)"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Bench"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Release"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Clippy"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Test --no-run"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Test --features use-mock-routing --no-run"
+				]
+			],
+			[
+				"Packages/Rust/Cargo.sublime-build",
+				"Test --features use-mock-routing --no-run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Bench"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Test --no-run"
+				]
+			],
+			[
+				"Packages/Rust/Cargo.sublime-build",
+				"Test --no-run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Bench"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Test --no-run"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Test --features use-mock-routing"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Test --features use-mock-routing --no-run"
+				]
+			],
+			[
+				"Packages/Rust/Cargo.sublime-build",
+				"Test --features use-mock-routing"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/Cargo-colorized.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Cargo-colorized.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/Cargo-colorized.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/User/Cargo-colorized.sublime-build",
+					"Bench"
+				],
+				[
+					"Packages/User/Cargo-colorized.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/User/Cargo-colorized.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/Cargo.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Cargo.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/Cargo.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/User/Cargo.sublime-build",
+					"Bench"
+				],
+				[
+					"Packages/User/Cargo.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/User/Cargo.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "Test (use-mock-routing, no-run)",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"bea",
+				"BeautifyRust"
+			],
+			[
+				"be",
+				"BeautifyRust"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"rust",
+				"Set Syntax: Rust"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ru",
+				"Set Syntax: Rust Enhanced"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"rus",
+				"Set Syntax: Rust"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"re",
+				"File: Rename"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"de",
+				"File: Delete"
+			],
+			[
+				"upca",
+				"Convert Case: Upper Case"
+			],
+			[
+				"upc",
+				"Convert Case: Upper Case"
+			],
+			[
+				"beau",
+				"BeautifyRust"
+			],
+			[
+				"atm",
+				"Git: Amend Commit"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"move",
+				"Quick File Move: Move Current File"
+			],
+			[
+				"jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"b",
+				"BeautifyRust"
+			],
+			[
+				"lo",
+				"Convert Case: Lower Case"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"mo",
+				"Quick File Move: Move Current File"
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"colo",
+				"Colorsublime: Browse Themes"
+			],
+			[
+				"toml",
+				"Set Syntax: TOML"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"low",
+				"Convert Case: Lower Case"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"cmak",
+				"Set Syntax: CMake"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"git",
+				"Git: Diff Current File"
+			],
+			[
+				"ma",
+				"Set Syntax: Makefile"
+			],
+			[
+				"mak",
+				"Set Syntax: Makefile"
+			],
+			[
+				"make",
+				"Set Syntax: Makefile"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"ini",
+				"Set Syntax: INI"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"upcas",
+				"Convert Case: Upper Case"
+			],
+			[
+				"delt",
+				"File: Delete"
+			],
+			[
+				"android",
+				"Build: platform=android"
+			],
+			[
+				"makefi",
+				"Set Syntax: Makefile"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			]
+		],
+		"width": 511.0
+	},
+	"console":
+	{
+		"height": 410.0,
+		"history":
+		[
+			"clear",
+			"os.environ['RUST_SRC_PATH']",
+			"import os",
+			"os.environ['NDK_ROOT']",
+			"os.environ['PATH']",
+			"os.environ['RUST_SRC_PATH']",
+			"import os",
+			"0.1 ** 0.2",
+			"0.1 ** 0.1",
+			"0.1 ^ 0.1",
+			"1 / 60",
+			"1 / 0.016",
+			"3 / 0.1",
+			"1 / 10",
+			"3 / 0.016",
+			"1 / 60.0",
+			"0.3 * 0.3",
+			"0.25 / 2",
+			"0.0000000000000001**0.016",
+			"0.000000000000001**0.016",
+			"0.00000000000001**0.016",
+			"0.0000000000001**0.016",
+			"0.000000000001**0.016",
+			"0.00000000001**0.016",
+			"0.0000000001**0.016",
+			"0.000000001**0.016",
+			"0.00000001**0.016",
+			"0.0000001**0.016",
+			"0.000001**0.016",
+			"0.00001**0.016",
+			"0.00001^0.016",
+			"(172 / 60) * 56",
+			"(172 / 60) * 48",
+			"172 / 60",
+			"1.25 * 8",
+			"1.25 * 6",
+			"1.25 * 5",
+			"1.25 * 4",
+			"1.25 * 3",
+			"1.25 * 2",
+			"1.25 * 0.5"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/adam/projects/maidsafe/swig-experiments"
+	],
+	"file_history":
+	[
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/app.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/mod.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/helper.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/client/mod.rs",
+		"/home/adam/projects/sublime-rust/Cargo.sublime-build",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/dir_details.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/logging.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/session.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/file_details.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/string_list.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/dns/file.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/dns/long_name.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/dns/service.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/low_level_api/appendable_data.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/low_level_api/cipher_opt.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/low_level_api/data_id.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/low_level_api/immut_data.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/low_level_api/misc.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/low_level_api/struct_data/mod.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/nfs/dir.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/nfs/file.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/nfs/file_writing.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/macros.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/utility/test_utils.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/client/mock_routing/mod.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/callback.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/mod.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/dns/operations.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/lib.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/errors.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/futures.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/object_cache.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/low_level_api/struct_data/tests.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/test_utils.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/structured_data/mod.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/errors.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/<std macros>",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/low_level_api/<std macros>",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/dns/<std macros>",
+		"/home/adam/projects/maidsafe/safe_core/src/core/core_el.rs",
+		"/home/adam/projects/maidsafe/safe_core/examples/self_authentication.rs",
+		"/home/adam/projects/maidsafe/safe_core/examples/safe_client.rs",
+		"/home/adam/projects/maidsafe/safe_core/examples/nfs_api.rs",
+		"/home/adam/projects/maidsafe/safe_core/examples/email_stress_test.rs",
+		"/home/adam/projects/maidsafe/safe_core/examples/client_stress_test.rs",
+		"/home/adam/projects/maidsafe/safe_core/examples/simulate_browser.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/client/routing_el.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/immutable_data.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/client/account.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/id/id_type.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/id/public_id_type.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/id/revocation_id_type.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/structured_data/unversioned.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/structured_data/versioned.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/utility/mod.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/dns/config.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/dns/mod.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/nfs/dir.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/nfs/file.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/nfs/helper/dir_helper.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/nfs/helper/file_helper.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/nfs/metadata/dir_metadata.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/nfs/metadata/file_metadata.rs",
+		"/home/adam/projects/maidsafe/safe_core/.travis.yml",
+		"/home/adam/projects/sublime-rust/Cargo.build-language",
+		"/home/adam/projects/sublime-rust/Rust.JSON-tmLanguage",
+		"/home/adam/projects/sublime-rust/Rust.tmLanguage",
+		"/home/adam/.config/sublime-text-3/Packages/User/EasyClangComplete.sublime-settings",
+		"/home/adam/.config/sublime-text-3/Packages/EasyClangComplete/EasyClangComplete.sublime-settings",
+		"/home/adam/projects/maidsafe/sandbox/src/main.rs",
+		"/home/adam/projects/maidsafe/safe_core/Cargo.toml",
+		"/home/adam/projects/maidsafe/safe_core/tests/email_stress.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/low_level_api/struct_data.rs",
+		"/home/adam/projects/maidsafe/sandbox/Cargo.toml",
+		"/home/adam/projects/maidsafe/safe_core/Cargo.lock",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/low_level_api/mod.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/dns/mod.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/launcher_config.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/client/mod_.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/nfs/helper/writer.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/config.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/nfs/errors.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/dns/errors.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/nfs/helper/mod.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/nfs/mod.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/nfs/helper/reader.rs",
+		"/home/adam/.config/sublime-text-3/Packages/User/BeautifyRust.sublime-settings",
+		"/home/adam/.config/sublime-text-3/Packages/BeautifyRust/BeautifyRust.sublime-settings",
+		"/home/adam/.config/sublime-text-3/Packages/BeautifyRust/Default (Linux).sublime-keymap",
+		"/home/adam/projects/maidsafe/safe_core/rustfmt.toml",
+		"/home/adam/projects/maidsafe/safe_core/examples/email.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/event.rs",
+		"/home/adam/projects/oxymoron/atm/.gitignore",
+		"/home/adam/projects/maidsafe/safe_core/.gitignore",
+		"/home/adam/projects/maidsafe/safe_core/src/dns/tests.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/client/--> /home/adam/projects/maidsafe/safe_core/src/core/client/mod.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/client/mock_routing/storage.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/dns/dns_operations/mod.rs",
+		"/home/adam/projects/rubblers/src/Math/ConvexHull3.h",
+		"/home/adam/projects/rubblers/src/Math/ConvexHull3.cpp",
+		"/home/adam/projects/rubblers/src/Math/ConvexHull3.",
+		"/home/adam/projects/maidsafe/safe_core/src/dns/dns_operations/dns_configuration.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/structured_data/|/home/adam/projects/maidsafe/safe_core/src/core/structured_data/versioned.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/structured_data/--> /home/adam/projects/maidsafe/safe_core/src/core/structured_data/versioned.rs",
+		"/home/adam/projects/oxymoron/atm/src/main.cpp",
+		"/home/adam/projects/oxymoron/atm/TODO.txt",
+		"/home/adam/projects/maidsafe/safe_core/src/ffi/low_level_api/object_cache.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/nfs/helper/directory_helper.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/structured_data_operations/unversioned.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/structured_data_operations/versioned.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/structured_data_operations/mod.rs",
+		"/home/adam/apps/KSP/settings.cfg",
+		"/home/adam/projects/maidsafe/safe_core/src/core/immut_data_operations.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/self_encryption_storage.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/client/mod.rs.orig",
+		"/home/adam/projects/maidsafe/safe_core/src/core/macros.rs",
+		"/home/adam/projects/maidsafe/safe_core/CHANGELOG.md",
+		"/home/adam/projects/maidsafe/safe_core/src/core/self_encryption_storage_error.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/client/mod_old.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/client/mod_new.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/translated_events.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/context.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/reactor.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/legacy_sync/translated_events.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/legacy_sync/client/message_queue.rs",
+		"/home/adam/projects/maidsafe/async-experiments/src/main.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/response.rs",
+		"/home/adam/projects/maidsafe/safe_core/src/core/legacy_sync/client/mod.rs"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"ffi",
+			"",
+			"tmp",
+			"",
+			"*.cpp",
+			"",
+			"*Shader*",
+			"",
+			"*.h, *.cpp",
+			"",
+			"/home/adam/projects/lingout/app/models",
+			"",
+			"*.cpp",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Duration",
+			"#[no_mangle]",
+			"ffi_ptr_try",
+			"ffi_try",
+			"ffi_try!((*session)",
+			"helper::catch_unwind_cb(|| ",
+			"}));\n\n        0",
+			"ffi_try!((*session)",
+			"helper::catch_unwind_cb(|| ",
+			"ffi_try!((*session)",
+			"helper::catch_unwind_cb(|| ",
+			"catch_unwind_i32",
+			"helper::catch_unwind_i32(|| ",
+			"catch_unwind_i32",
+			": CallbackArgs",
+			"FfiDefault",
+			"catch_unwind_cb(|| ",
+			"helper::catch_unwind_cb(|| ",
+			"catch_unwind_cb(|| ",
+			"helper::catch_unwind_cb(|| ",
+			"catch_unwind_cb(|| ",
+			"helper::catch_unwind_cb(|| ",
+			"try_cb",
+			"catch_unwind_i32",
+			"ACC_PKT",
+			"Cache",
+			"store",
+			"Cache",
+			"send_cb(user_data, ",
+			"send_cb(user_data",
+			"raw_data",
+			"gen.clone()",
+			"ad",
+			"reader",
+			"})));",
+			"CoreMsg::new(move |client|",
+			"})));",
+			"CoreMsg::new(move |client|",
+			"}))",
+			"CoreMsg::new(move |client|",
+			"})));",
+			"CoreMsg::new(move |client|",
+			"unwrap!(obj_cache.lock())",
+			"(*session).send(move |_|",
+			"unwrap!(obj_cache.lock())",
+			"CoreMsg",
+			"SessionMsg::new(move |_|",
+			"unwrap!(obj_cache.lock())",
+			"CoreMsg",
+			"SessionMsg::new(move |_|",
+			"CoreMsg",
+			"unwrap!(obj_cache.lock())",
+			"SessionMsg::new(move |_|",
+			"move |client|",
+			"CoreMsg",
+			"ObjectCacheRef",
+			"CoreMsg",
+			"LruCache<",
+			"LruCache::new(DEFAULT_CAPACITY)",
+			"deprecated",
+			"mod tests",
+			"mod tests.*and_then",
+			"mod tests[.\\n]*?and_then",
+			"send_fn",
+			"TODO (adam)",
+			"plain_text",
+			"invalidstr",
+			"mod tests",
+			"restart",
+			"new_plain_text",
+			"retrieved_plain_text",
+			"orig_plain_text",
+			"sd_data_id",
+			"plain_text_new",
+			"OpaqueCtx",
+			"SendWrapper",
+			"call1",
+			"call0",
+			"send_fn",
+			"create_for_del",
+			"code",
+			"core_tx",
+			"self.core_tx",
+			"core_tx",
+			"DirDetails",
+			"DirDe",
+			"dir_details",
+			"u8_ptr_to_vec",
+			"u8_vec_to_ptr",
+			"as_ffi_str",
+			"str_as_c_utf8",
+			"ffi_str",
+			"str_as_c_utf8",
+			"DirDetails",
+			"catch_unwind_i64",
+			"catch_unwind_ptr",
+			"string_list",
+			"print",
+			"prin",
+			"print",
+			"core_tx",
+			"string_handle",
+			"dir_help",
+			"dir_and_file",
+			"tokenise_path",
+			"misc_u8_ptr_free",
+			"misc_u8_ptr",
+			"Receiver",
+			"function",
+			"remove_core_event_com",
+			"insert_head",
+			"head",
+			"core_el",
+			"routing_el",
+			"private_signing_key2",
+			"private_signing_key",
+			"signing_key",
+			"sign_pk",
+			"signing_key",
+			"secret_sign",
+			"Priv",
+			"InvalidOpe",
+			"retrieved_services",
+			"::\n",
+			"prin",
+			"dir_metadata",
+			"dir_name",
+			"struct_data"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"CallbackArgs",
+			"&ObjectCache",
+			"user_metadata",
+			"self.storage.clone",
+			"Box::into_raw(Box::new",
+			"MaxSpeed",
+			"Velocity",
+			"Position",
+			"Radius",
+			"",
+			"Version",
+			"ogg"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CppYCM.2":
+	{
+		"height": 0.0
+	},
+	"output.clangcomplete":
+	{
+		"height": 100.0
+	},
+	"output.exec":
+	{
+		"height": 374.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 116.0
+	},
+	"output.variable_get":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "Packages/Rust Enhanced/Cargo.sublime-build",
+	"project": "swig-experiments.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ffimod",
+				"src/ffi/mod.rs"
+			],
+			[
+				"help",
+				"src/ffi/helper.rs"
+			],
+			[
+				"coretest",
+				"src/core/utility/test_utils.rs"
+			],
+			[
+				"mockrout",
+				"src/core/client/mock_routing/mod.rs"
+			],
+			[
+				"clie",
+				"src/core/client/mod.rs"
+			],
+			[
+				"call",
+				"src/ffi/callback.rs"
+			],
+			[
+				"lowlstrucda",
+				"src/ffi/low_level_api/struct_data/mod.rs"
+			],
+			[
+				"ffmod",
+				"src/ffi/mod.rs"
+			],
+			[
+				"ffdnslo",
+				"src/ffi/dns/long_name.rs"
+			],
+			[
+				"ffdnsfil",
+				"src/ffi/dns/file.rs"
+			],
+			[
+				"ffdnsse",
+				"src/ffi/dns/service.rs"
+			],
+			[
+				"dns",
+				"src/ffi/dns/service.rs"
+			],
+			[
+				"macros",
+				"src/ffi/macros.rs"
+			],
+			[
+				"ffihelp",
+				"src/ffi/helper.rs"
+			],
+			[
+				"cliemo",
+				"src/core/client/mod.rs"
+			],
+			[
+				"ffidnsfi",
+				"src/ffi/dns/file.rs"
+			],
+			[
+				"ffihe",
+				"src/ffi/helper.rs"
+			],
+			[
+				"helper",
+				"src/ffi/helper.rs"
+			],
+			[
+				"sess",
+				"src/ffi/session.rs"
+			],
+			[
+				"coreer",
+				"src/core/errors.rs"
+			],
+			[
+				"coremod",
+				"src/core/mod.rs"
+			],
+			[
+				"clientmod",
+				"src/core/client/mod.rs"
+			],
+			[
+				"immutdata",
+				"src/ffi/low_level_api/immut_data.rs"
+			],
+			[
+				"testuti",
+				"src/core/utility/test_utils.rs"
+			],
+			[
+				"obj",
+				"src/ffi/object_cache.rs"
+			],
+			[
+				"objc",
+				"src/ffi/object_cache.rs"
+			],
+			[
+				"teutil",
+				"src/ffi/test_utils.rs"
+			],
+			[
+				"obca",
+				"src/ffi/object_cache.rs"
+			],
+			[
+				"strucdatamod",
+				"src/ffi/low_level_api/struct_data/mod.rs"
+			],
+			[
+				"structdata",
+				"src/core/structured_data/mod.rs"
+			],
+			[
+				"fferr",
+				"src/ffi/errors.rs"
+			],
+			[
+				"objcache",
+				"src/ffi/object_cache.rs"
+			],
+			[
+				"ffer",
+				"src/ffi/errors.rs"
+			],
+			[
+				"testutil",
+				"src/ffi/test_utils.rs"
+			],
+			[
+				"objca",
+				"src/ffi/object_cache.rs"
+			],
+			[
+				"coel",
+				"src/core/core_el.rs"
+			],
+			[
+				"coreel",
+				"src/core/core_el.rs"
+			],
+			[
+				"ffimo",
+				"src/ffi/mod.rs"
+			],
+			[
+				"ffierr",
+				"src/ffi/errors.rs"
+			],
+			[
+				"coreom",
+				"src/core/mod.rs"
+			],
+			[
+				"travis",
+				".travis.yml"
+			],
+			[
+				"cipheop",
+				"src/ffi/low_level_api/cipher_opt.rs"
+			],
+			[
+				"strudata",
+				"src/core/structured_data/mod.rs"
+			],
+			[
+				"ffier",
+				"src/ffi/errors.rs"
+			],
+			[
+				"imutadata",
+				"src/core/immutable_data.rs"
+			],
+			[
+				"versio",
+				"src/core/structured_data/versioned.rs"
+			],
+			[
+				"unvers",
+				"src/core/structured_data/unversioned.rs"
+			],
+			[
+				"strudtmod",
+				"src/ffi/low_level_api/struct_data/mod.rs"
+			],
+			[
+				"strucdamod",
+				"src/core/structured_data/mod.rs"
+			],
+			[
+				"strtests",
+				"src/ffi/low_level_api/struct_data/tests.rs"
+			],
+			[
+				"tesuti",
+				"src/core/utility/test_utils.rs"
+			],
+			[
+				"strutests",
+				"src/ffi/low_level_api/struct_data/tests.rs"
+			],
+			[
+				"strudtest",
+				"src/ffi/low_level_api/struct_data/tests.rs"
+			],
+			[
+				"strucdata",
+				"src/ffi/low_level_api/struct_data/mod.rs"
+			],
+			[
+				"lib",
+				"src/lib.rs"
+			],
+			[
+				"cliemod",
+				"src/core/client/mod.rs"
+			],
+			[
+				"cliend",
+				"src/core/client/mod.rs"
+			],
+			[
+				"ses",
+				"src/ffi/session.rs"
+			],
+			[
+				"sessio",
+				"src/ffi/session.rs"
+			],
+			[
+				"unver",
+				"src/core/structured_data/unversioned.rs"
+			],
+			[
+				"strutes",
+				"src/ffi/low_level_api/struct_data/tests.rs"
+			],
+			[
+				"lowapp",
+				"src/ffi/low_level_api/appendable_data.rs"
+			],
+			[
+				"macr",
+				"src/ffi/macros.rs"
+			],
+			[
+				"mockr",
+				"src/core/client/mock_routing/mod.rs"
+			],
+			[
+				"coreerr",
+				"src/core/errors.rs"
+			],
+			[
+				"cargot",
+				"Cargo.toml"
+			],
+			[
+				"cargo",
+				"Cargo.lock"
+			],
+			[
+				"tesutil",
+				"src/ffi/test_utils.rs"
+			],
+			[
+				"ffie",
+				"src/ffi/errors.rs"
+			],
+			[
+				"ffiteu",
+				"src/ffi/test_utils.rs"
+			],
+			[
+				"ciphe",
+				"src/ffi/low_level_api/cipher_opt.rs"
+			],
+			[
+				"cipherop",
+				"src/ffi/low_level_api/cipher_opt.rs"
+			],
+			[
+				"cipherops",
+				"src/ffi/low_level_api/cipher_opt.rs"
+			],
+			[
+				"ciphop",
+				"src/ffi/low_level_api/cipher_opt.rs"
+			],
+			[
+				"lowciphe",
+				"src/ffi/low_level_api/cipher_opt.rs"
+			],
+			[
+				"tesur",
+				"src/ffi/test_utils.rs"
+			],
+			[
+				"session",
+				"src/ffi/session.rs"
+			],
+			[
+				"structurda",
+				"src/core/structured_data/mod.rs"
+			],
+			[
+				"futur",
+				"src/core/futures.rs"
+			],
+			[
+				"app",
+				"src/ffi/app.rs"
+			],
+			[
+				"lowimm",
+				"src/ffi/low_level_api/immut_data.rs"
+			],
+			[
+				"lowmod",
+				"src/ffi/low_level_api/mod.rs"
+			],
+			[
+				"ciph",
+				"src/ffi/low_level_api/cipher_opt.rs"
+			],
+			[
+				"ffhelp",
+				"src/ffi/helper.rs"
+			],
+			[
+				"unve",
+				"src/core/structured_data/unversioned.rs"
+			],
+			[
+				"objcac",
+				"src/ffi/object_cache.rs"
+			],
+			[
+				"future",
+				"src/core/futures.rs"
+			],
+			[
+				"clienmod",
+				"src/core/client/mod.rs"
+			],
+			[
+				"corel",
+				"src/core/core_el.rs"
+			],
+			[
+				"cipher",
+				"src/ffi/low_level_api/cipher_opt.rs"
+			],
+			[
+				"ma",
+				"src/ffi/macros.rs"
+			],
+			[
+				"mac",
+				"src/ffi/macros.rs"
+			],
+			[
+				"objcach",
+				"src/ffi/object_cache.rs"
+			],
+			[
+				"unversio",
+				"src/core/structured_data/unversioned.rs"
+			],
+			[
+				"lowstr",
+				"src/ffi/low_level_api/struct_data.rs"
+			],
+			[
+				"ffidnsser",
+				"src/ffi/dns/service.rs"
+			],
+			[
+				"cipherp",
+				"src/ffi/low_level_api/cipher_opt.rs"
+			],
+			[
+				"ffidnsf",
+				"src/ffi/dns/file.rs"
+			],
+			[
+				"lowlestr",
+				"src/ffi/low_level_api/struct_data.rs"
+			],
+			[
+				"lowlemod",
+				"src/ffi/low_level_api/mod.rs"
+			],
+			[
+				"corefutur",
+				"src/core/futures.rs"
+			],
+			[
+				"lowleveapi",
+				"src/ffi/low_level_api/immut_data.rs"
+			],
+			[
+				"ffitestu",
+				"src/ffi/test_utils.rs"
+			],
+			[
+				"dirhe",
+				"src/nfs/helper/dir_helper.rs"
+			],
+			[
+				"oper",
+				"src/dns/operations.rs"
+			],
+			[
+				"dirhelp",
+				"src/nfs/helper/dir_helper.rs"
+			],
+			[
+				"dirde",
+				"src/ffi/dir_details.rs"
+			],
+			[
+				"dnsser",
+				"src/ffi/dns/service.rs"
+			],
+			[
+				"dnslongn",
+				"src/ffi/dns/long_name.rs"
+			],
+			[
+				"dnsfile",
+				"src/ffi/dns/file.rs"
+			],
+			[
+				"helpe",
+				"src/ffi/helper.rs"
+			],
+			[
+				"de",
+				"src/ffi/dir_details.rs"
+			],
+			[
+				"laucon",
+				"src/ffi/launcher_config.rs"
+			],
+			[
+				"ap",
+				"src/ffi/app.rs"
+			],
+			[
+				"lonna",
+				"src/ffi/dns/long_name.rs"
+			],
+			[
+				"longna",
+				"src/ffi/dns/long_name.rs"
+			],
+			[
+				"tesutils",
+				"src/ffi/test_utils.rs"
+			],
+			[
+				"dir",
+				"src/nfs/dir.rs"
+			],
+			[
+				"macro",
+				"src/ffi/macros.rs"
+			],
+			[
+				"dirmet",
+				"src/nfs/metadata/dir_metadata.rs"
+			],
+			[
+				"opera",
+				"src/dns/operations.rs"
+			],
+			[
+				"ffiteuti",
+				"src/ffi/test_utils.rs"
+			],
+			[
+				"ffteuti",
+				"src/ffi/test_utils.rs"
+			],
+			[
+				"ffinfs",
+				"src/ffi/nfs/file.rs"
+			],
+			[
+				"ffdnsfe",
+				"src/ffi/dns/file.rs"
+			],
+			[
+				"ffidns",
+				"src/ffi/dns/mod.rs"
+			],
+			[
+				"ffidnser",
+				"src/ffi/dns/service.rs"
+			],
+			[
+				"stringlis",
+				"src/ffi/string_list.rs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 529.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"atm",
+				"~/projects/oxymoron/atm/atm.sublime-project"
+			],
+			[
+				"selfen",
+				"~/projects/maidsafe/self_encryption/self_encryption.sublime-project"
+			],
+			[
+				"self",
+				"~/projects/maidsafe/self_encryption/self_encryption.sublime-project"
+			],
+			[
+				"sel",
+				"~/projects/maidsafe/self_encryption/self_encryption.sublime-project"
+			],
+			[
+				"rout",
+				"~/projects/maidsafe/routing/routing.sublime-project"
+			],
+			[
+				"safecore",
+				"~/projects/maidsafe/safe_core/safe_core.sublime-project"
+			],
+			[
+				"mars",
+				"~/projects/mars/mars.sublime-project"
+			],
+			[
+				"ma",
+				"~/projects/mars/mars.sublime-project"
+			],
+			[
+				"safeco",
+				"~/projects/maidsafe/safe_core/safe_core.sublime-project"
+			],
+			[
+				"vaul",
+				"~/projects/maidsafe/vault/vault.sublime-project"
+			],
+			[
+				"vault",
+				"~/projects/maidsafe/vault/vault.sublime-project"
+			],
+			[
+				"secs",
+				"~/projects/secs/secs.sublime-project"
+			],
+			[
+				"routi",
+				"~/projects/maidsafe/routing/routing.sublime-project"
+			],
+			[
+				"rou",
+				"~/projects/maidsafe/routing/routing.sublime-project"
+			],
+			[
+				"routing",
+				"~/projects/maidsafe/routing/routing.sublime-project"
+			],
+			[
+				"chun",
+				"~/projects/maidsafe/chunk_store/chunk_store.sublime-project"
+			],
+			[
+				"fort",
+				"~/projects/fortress/fortress.sublime-project"
+			],
+			[
+				"crus",
+				"~/projects/maidsafe/crust/crust.sublime-workspace"
+			],
+			[
+				"for",
+				"~/projects/fortress/fortress.sublime-project"
+			],
+			[
+				"rubb",
+				"~/projects/rubblers/rubblers.sublime-project"
+			],
+			[
+				"rubbl",
+				"~/projects/rubblers/rubblers.sublime-project"
+			],
+			[
+				"doto",
+				"~/projects/dotouch/dotouch.sublime-project"
+			],
+			[
+				"do",
+				"~/projects/dotouch/dotouch.sublime-project"
+			],
+			[
+				"fo",
+				"~/projects/fortress/fortress.sublime-project"
+			],
+			[
+				"rvo",
+				"~/projects/rvo2-cs/RVO.sublime-project"
+			],
+			[
+				"main",
+				"~/projects/game-two/main/main.sublime-project"
+			],
+			[
+				"",
+				"~/projects/game-one/game-one.sublime-project"
+			],
+			[
+				"game",
+				"~/projects/game-one/game-one.sublime-project"
+			],
+			[
+				"ru",
+				"~/projects/rubblers/rubblers.sublime-project"
+			],
+			[
+				"lin",
+				"~/Dropbox/projects/lingout.sublime-project"
+			],
+			[
+				"li",
+				"~/Dropbox/projects/lingout.sublime-project"
+			]
+		],
+		"width": 402.0
+	},
+	"select_symbol":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 520.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
